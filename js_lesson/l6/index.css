@@ -1,0 +1,10 @@
+.error-input {
+    border-color: red;
+    width: 150px;
+    padding: 10px;   
+}
+
+.button {
+    margin:20px;
+    padding: 20px;
+}
