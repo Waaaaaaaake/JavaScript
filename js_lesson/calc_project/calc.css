@@ -1,0 +1,9 @@
+.action_button {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    /* padding: 20px; */
+    margin: 30px;
+    font-size: 40px;
+    color: lightblue;
+}
