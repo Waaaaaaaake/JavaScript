@@ -27,20 +27,26 @@ function makeOperation(operation) {
     }
 }
 
-function onPlusClick() {
-    makeOperation("+");
-}
+// function onPlusClick() {
+//     makeOperation("+");
+// }
 
-function onMinusClick() {
-    makeOperation("-");
-}
+// function onMinusClick() {
+//     makeOperation("-");
+// }
 
-function onMultiplyClick() {
-    makeOperation("*");
-}
+// function onMultiplyClick() {
+//     makeOperation("*");
+// }
 
-function onDivisionClick() {
-    makeOperation("/");
+// function onDivisionClick() {
+//     makeOperation("/");
+// }
+
+function onOperationButtonClick(eventObject) {
+    var clickedElementInnerHtml = eventObject.currentTarget;
+    var operation = clickedElementInnerHtml.innerHTML;
+    makeOperation(operation);
 }
 
 var plusObj = document.getElementById(btn_plus_id);
@@ -48,7 +54,7 @@ var minusObj = document.getElementById(btn_minus_id);
 var multiplyObj = document.getElementById(btn_multiply_id);
 var divisionObj = document.getElementById(btn_division_id);
 
-plusObj.addEventListener(type="click", listener=onPlusClick);
-minusObj.addEventListener(type="click", listener=onMinusClick);
-multiplyObj.addEventListener(type="click", listener=onMultiplyClick);
-divisionObj.addEventListener(type="click", listener=onDivisionClick);
+plusObj.addEventListener(type="click", listener=onOperationButtonClick);
+minusObj.addEventListener(type="click", listener=onOperationButtonClick);
+multiplyObj.addEventListener(type="click", listener=onOperationButtonClick);
+divisionObj.addEventListener(type="click", listener=onOperationButtonClick);
