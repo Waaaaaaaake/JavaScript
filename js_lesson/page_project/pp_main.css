@@ -1,0 +1,14 @@
+.footer {
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+h2 {
+    color: black;
+    padding: 10px;
+}
+
+li:hover a {
+    color:white;
+}
