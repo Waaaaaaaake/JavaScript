@@ -1,0 +1,30 @@
+.section_news li {
+    padding: 10px;
+}
+
+.section-news h2,
+.section-news .ul-news li:hover {
+    background-color: lightgreen   
+}
+
+.section-realty li:hover,
+.section-realty h2 {
+    background-color: lightblue;
+}
+
+.section-news .footer {
+    background-color: white;
+    color: black;
+}
+
+.section-news li {
+    padding: 5px;
+}
+.section-news .footer h3{
+    background-color: red;
+    padding: 10px;
+}
+
+.section-realty .footer{
+    background-color: orange;
+}
