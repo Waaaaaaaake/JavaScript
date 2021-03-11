@@ -1,5 +1,5 @@
-let mainSlider1 = createNewSlider()
-let mainSlider2 = createNewSlider()
+let mainSlider1 = new Slider();
+let mainSlider2 = new Slider()
 
-mainSlider1.init('slider1');
-mainSlider2.init('slider2');
+mainSlider1.start('slider1');
+mainSlider2.start('slider2');
