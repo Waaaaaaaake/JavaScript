@@ -7,6 +7,6 @@ function sumFive(arr) {
   }
   // return Math.round(sum * 100) / 100;
   // return arr.reduce((a, b) => b > 5 ? a + b : a, 0);
-}
 
+}
 console.log(sumFive());
